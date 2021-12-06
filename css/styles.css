@@ -39,7 +39,7 @@ ul {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--first-text-color);
 }
 
@@ -142,7 +142,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -32px;
-  content: "";
+  content: '';
   width: 100%;
   height: 4px;
   background-color: var(--accent-color);
@@ -185,10 +185,7 @@ body {
   background-color: #c4c4c4;
   margin: 0 auto;
   max-width: 1600px;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-background.jpg);
 
   background-repeat: no-repeat;
@@ -729,4 +726,28 @@ body {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.modal {
+  padding: 40px;
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-title-color);
+  margin-bottom: 12px;
+}
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
 }
